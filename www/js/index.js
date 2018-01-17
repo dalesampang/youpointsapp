@@ -37,6 +37,7 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        window.location="https://my.alifelong.biz";
+        // window.location="https://my.alifelong.biz";
+        window.open('https://my.alifelong.biz', '_self ', 'location=yes');
     }
 };
